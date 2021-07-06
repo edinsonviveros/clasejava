@@ -29,6 +29,21 @@ public class App {
         respuesta = 5 <= 8;
         respuesta = 5 != 8;
         respuesta = 5 == 8;
+        respuesta = 12 < 5 && 4 > 1; //and
+        respuesta = 14 < 25 || 1 > 5; //or
+        //Operadores bit a bit
+        // &
+        // ^
+        // |
+        // Estructura de control
+        if (respuesta) {
+            //bloque de código
+        }
+        if (respuesta) {
+            //bloque de código si se cumple 
+        } else {
+            //bloque de codigo si no se cumple
+        }
 
     }
 }
